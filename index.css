@@ -1,0 +1,37 @@
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    padding: 10px 0;
+  }
+  
+  main {
+    background: #66e060;
+    min-height: calc(100vh - 140px); /* Adjust height minus header and footer */
+  }
+  
+  form .btn-success {
+    background-color: #66e060;
+    border: none;
+  }
+  
+  footer {
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+  }
+
+  .backContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+  }
+
+
+
+  
+
+  

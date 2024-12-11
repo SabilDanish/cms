@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.bootstrap5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="settings.css" />
+
+</head>
+
+<body>
+    <header class="text-white py-2" style="background-color: #3acf60;">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <button class="btn btn-light d-lg-none" id="toggleSidebar">☰</button>
+            <img class="ImageMob" src="./Assets/Images/rj_logo (2).png" alt="#"
+                style="width: 195px; background-color: aliceblue;border-radius: 8px;">
+            <div>
+                <span class="me-3">Hi, Admin</span>
+                <button class="btn btn-outline-light">English</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <a href="./homepage.html">
+                    <li class="active MainSidebar">
+                        <span class="icon">🏠</span>
+                        <span class="label">Dashboard</span>
+                    </li>
+                </a>
+
+                <a href="./AboutJournals.html">
+                    <li class=" MainSidebar">
+                        <span class="icon">ℹ️</span>
+                        <span class="label">About journals</span>
+                    </li>
+                </a>
+
+                <a href="./Scopes.html">
+                    <li class=" MainSidebar">
+                        <span class="icon">📄</span>
+                        <span class="label">Scope of the journals</span>
+                    </li>
+                </a>
+
+
+                <a href="./EditorialBoard.html">
+                    <li class=" MainSidebar">
+                        <span class="icon">👤</span>
+                        <span class="label">Editorial Board</span>
+                    </li>
+                </a>
+
+                <a href="./AuthorGuidelines.html">
+                    <li class=" MainSidebar">
+                        <span class="icon">❓</span>
+                        <span class="label">Author Guidelines</span>
+                    </li>
+                </a>
+
+                <a href="./submitArticle.html">
+                    <li class=" MainSidebar">
+                        <span class="icon">✏️</span>
+                        <span class="label">Submit Articles</span>
+                    </li>
+                </a>
+
+
+
+                <li class=" MainSidebar">
+                    <span class="icon">🎟️</span>
+                    <span class="label">Article in Press</span>
+                </li>
+
+
+                <a href="./archive.html">
+                    <li class=" MainSidebar">
+                        <span class="icon">💬</span>
+                        <span class="label">Archive</span>
+                    </li>
+                </a>
+               
+
+                <a href="./contact.html">
+                    <li class=" MainSidebar">
+                        <span class="icon">✉️</span>
+                        <span class="label">Contact Us</span>
+                        <span class="arrow">▶</span>
+                    </li>
+                </a>
+                
+                <a href="./settings.html">
+                    <li class=" MainSidebar">
+                        <span class="icon">⚙️</span>
+                        <span class="label">Settings</span>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <!-- Main Content -->
+        <main class="container-fluid px-4" id="mainContent">
+            <div class="row" style="margin-top: 20px;">
+                <!-- Sidebar for Settings -->
+                <div class="col-lg-3">
+                    <div class="list-group">
+                        <div class="breadcrumb">
+                            <a href="./homepage.html" class="breadcrumb-link">Home</a>
+                            <span class="breadcrumb-separator">></span>
+                            <span class="breadcrumb-current">Settings</span>
+                        </div>
+                        <a href="#" id="viewChiefEditorLink" class="list-group-item list-group-item-action active">View
+                            Scopes</a>
+                        <a href="#" id="viewEditorLink" class="list-group-item list-group-item-action">Add Scopes</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-9">
+                    <div class="cardHolder">
+                        <div class="card cardModi  p-4" id="BrandSettings">
+                            
+
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table id="example" class="table table-striped" style="width:100%">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Position</th>
+                                                <th>Office</th>
+                                                <th>Action (Edit)</th>
+                                                <th>Action (Delete)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Tiger Nixon</td>
+                                                <td>System Architect</td>
+                                                <td>Edinburgh</td>
+                                                <td class="editBtn"><button class="editButton">Edit</button></td>
+                                                <td class="editBtn"><button class="deleteButton">Delete</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Garrett Winters</td>
+                                                <td>Accountant</td>
+                                                <td>Tokyo</td>
+
+                                                <td class="editBtn"><button class="editButton">Edit</button></td>
+                                                <td class="editBtn"><button class="deleteButton">Delete</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ashton Cox</td>
+                                                <td>Junior Technical Author</td>
+                                                <td>San Francisco</td>
+
+                                                <td class="editBtn"><button class="editButton">Edit</button></td>
+                                                <td class="editBtn"><button class="deleteButton">Delete</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cedric Kelly</td>
+                                                <td>Senior Javascript Developer</td>
+                                                <td>Edinburgh</td>
+
+                                                <td class="editBtn"><button class="editButton">Edit</button></td>
+                                                <td class="editBtn"><button class="deleteButton">Delete</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card cardModi  p-4" id="CompanySettings">
+                           
+                            <div class="row">
+                                <form>
+                                    <div class="row mb-3">
+
+
+                                        <div class="col-md-12" style="margin-bottom: 20px;">
+                                            <label for="email" class="form-label">Title</label>
+                                            <input class="form-control" type="text" placeholder="Title">
+                                        </div>
+
+
+                                        <div class="col-md-12">
+                                            <label for="email" class="form-label">Description</label>
+                                            <textarea class="form-control" name="" id=""></textarea>
+                                        </div>
+
+                                    </div>
+                                    <button type="submit" class="btn"
+                                        style="background-color: #3acf60;color: white;">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js"></script>
+    <script>
+        const toggleSidebar = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+        const mainContent = document.getElementById('mainContent');
+
+        toggleSidebar.addEventListener('click', () => {
+            sidebar.classList.toggle('show');
+            mainContent.classList.toggle('shift');
+        });
+
+        const sidebarLinks = document.querySelectorAll('.list-group-item');
+
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                sidebarLinks.forEach(item => item.classList.remove('active'));
+                e.target.classList.add('active');
+            });
+        });
+
+
+        const MainSidebarLinks = document.querySelectorAll(" .MainSidebar");
+        MainSidebarLinks.forEach((val) => {
+            val.addEventListener('click', (e) => {
+                MainSidebarLinks.forEach((elems) => {
+                    elems.classList.remove("active")
+
+                    val.classList.add("active")
+                    console.log(elems)
+                })
+            })
+        })
+
+
+        // Section elements
+        const sections = document.querySelectorAll(".card.cardModi");
+        const links = document.querySelectorAll(".list-group-item");
+
+        // Map links to sections
+        const sectionMapping = {
+            viewChiefEditorLink: "BrandSettings",
+            viewEditorLink: "CompanySettings",
+            addEditorLink: "EmailSettings",
+            addChiefEditorLink: "EmailNotiSettings",
+        };
+
+        // Add event listeners to links
+        links.forEach((link) => {
+            link.addEventListener("click", (e) => {
+                e.preventDefault();
+
+                // Remove active class from all links
+                links.forEach((item) => item.classList.remove("active"));
+                link.classList.add("active");
+
+                // Hide all sections
+                sections.forEach((section) => section.style.display = "none");
+
+                // Show the clicked section
+                const sectionId = sectionMapping[link.id];
+                document.getElementById(sectionId).style.display = "block";
+            });
+        });
+
+        // Initialize: hide all sections except the first one
+        document.addEventListener("DOMContentLoaded", () => {
+            sections.forEach((section, index) => {
+                section.style.display = index === 0 ? "block" : "none";
+            });
+        });
+
+        new DataTable('#example');
+        new DataTable('#example1');
+
+
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  
+  .sidebar .nav-link {
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+  }
+  
+  .sidebar .nav-link.active {
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-body h6 {
+    font-size: 1rem;
+  }
+
+  .card-body{
+    box-shadow: 2px 0px 8px #d8d8d8;
+  }
+
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li.active {
+    background-color: #3acf60;
+    color: #fff;
+    box-shadow: 1px 1px 3px #b9b9b9;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: rgb(58, 207, 96);
+    color: #fff;
+    box-shadow: 1px 1px 3px #b9b9b9;
+  }
+
+  .sidebar ul li .icon:hover{
+    color: #fff;
+  }
+  
+  .sidebar ul li .icon {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  
+  .sidebar ul li .label {
+    flex-grow: 1;
+    font-size: 14px;
+  }
+  
+  .sidebar ul li .arrow {
+    font-size: 12px;
+    color: #888;
+  }
+
+  .list-group-item.active{
+    background-color: #3acf60 !important;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+  }
+  
+ /* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 56px; /* Align under the header */
+    left: -250px; /* Hidden by default on mobile view */
+    width: 250px;
+    height: calc(100vh - 56px); /* Full viewport height minus the header height */
+    background-color: #f8f9fa;
+    z-index: 20; /* Ensure it appears above the main content */
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out;
+  }
+  
+  /* Show the sidebar when toggled */
+  .sidebar.show {
+    left: 0;
+  }
+  
+  /* Main content */
+  main.container-fluid {
+    margin-left: 0; /* No margin shift by default */
+    padding-top: 56px; /* Match the height of the header */
+  }
+  
+  /* Desktop view adjustments */
+  @media (min-width: 992px) {
+    .sidebar {
+      left: 0;
+    }
+  
+    main.container-fluid {
+      margin-left: 250px; /* Space for the sidebar */
+    }
+  }
+  
+
+  .list-group{
+  position: fixed;
+  width: 280px;
+  }
+
+  @media(max-width:768px){
+    .list-group{
+      position: relative;
+      }
+  }
+
+
+  .card{
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 4px grey
+  }
+
+  .breadcrumb {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .breadcrumb-link {
+    text-decoration: none;
+    color: #28a745; /* Green color for the link */
+    font-weight: bold;
+  }
+  
+  .breadcrumb-link:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb-separator {
+    margin: 0 5px;
+    color: #666;
+  }
+  
+  .breadcrumb-current {
+    color: #000; /* Black color for the current page */
+    font-weight: bold;
+  }
+  
+  
+  .sidebar ul a {
+    text-decoration: none;
+    color:black
+  }
+
+  .activee{
+    display: none;
+  }
+
+  .editButton{
+    border-radius: 4px;
+    background: #3acf60;
+    border: none;
+    color: white;
+    padding: 3px 21px;
+  }
+
+  .deleteButton{
+    border-radius: 4px;
+    background: #cf3a49;
+    border: none;
+    color: white;
+    padding: 3px 21px;
+  }
+
+  .editBtn{
+    text-align: center;
+  }
+  
+
+
+
+  
+  
+  

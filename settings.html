@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="settings.css" />
+
+</head>
+
+<body>
+  <header class="text-white py-2" style="background-color: #3acf60;">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <button class="btn btn-light d-lg-none" id="toggleSidebar">☰</button>
+      <img class="ImageMob" src="./Assets/Images/rj_logo (2).png" alt="#"
+        style="width: 195px; background-color: aliceblue;border-radius: 8px;">
+      <div>
+        <span class="me-3">Hi, Admin</span>
+        <button class="btn btn-outline-light">English</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="d-flex">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <a href="./homepage.html">
+          <li class="active MainSidebar">
+            <span class="icon">🏠</span>
+            <span class="label">Dashboard</span>
+          </li>
+        </a>
+
+        <a href="./AboutJournals.html">
+          <li class=" MainSidebar">
+            <span class="icon">ℹ️</span>
+            <span class="label">About journals</span>
+          </li>
+        </a>
+
+        <a href="./Scopes.html">
+          <li class=" MainSidebar">
+            <span class="icon">📄</span>
+            <span class="label">Scope of the journals</span>
+          </li>
+        </a>
+
+
+        <a href="./EditorialBoard.html">
+          <li class=" MainSidebar">
+            <span class="icon">👤</span>
+            <span class="label">Editorial Board</span>
+          </li>
+        </a>
+
+        <a href="./AuthorGuidelines.html">
+          <li class=" MainSidebar">
+            <span class="icon">❓</span>
+            <span class="label">Author Guidelines</span>
+          </li>
+        </a>
+
+        <a href="./submitArticle.html">
+          <li class=" MainSidebar">
+            <span class="icon">✏️</span>
+            <span class="label">Submit Articles</span>
+          </li>
+        </a>
+
+
+
+        <li class=" MainSidebar">
+          <span class="icon">🎟️</span>
+          <span class="label">Article in Press</span>
+        </li>
+
+
+        <a href="./archive.html">
+          <li class=" MainSidebar">
+            <span class="icon">💬</span>
+            <span class="label">Archive</span>
+          </li>
+        </a>
+
+
+        <a href="./contact.html">
+          <li class=" MainSidebar">
+            <span class="icon">✉️</span>
+            <span class="label">Contact Us</span>
+            <span class="arrow">▶</span>
+          </li>
+        </a>
+
+        <a href="./settings.html">
+          <li class=" MainSidebar">
+            <span class="icon">⚙️</span>
+            <span class="label">Settings</span>
+          </li>
+        </a>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container-fluid px-4" id="mainContent">
+      <div class="row" style="margin-top: 20px;">
+
+
+        <!-- Sidebar for Settings -->
+        <div class="col-lg-3">
+          <div class="list-group">
+            <div class="breadcrumb">
+              <a href="./homepage.html" class="breadcrumb-link">Home</a>
+              <span class="breadcrumb-separator">></span>
+              <span class="breadcrumb-current">Settings</span>
+            </div>
+
+            <a href="#BrandSettings" class="list-group-item list-group-item-action active">Brand Settings</a>
+            <a href="#CompanySettings" class="list-group-item list-group-item-action">Company Settings</a>
+            <a href="#EmailSettings" class="list-group-item list-group-item-action">Email Settings</a>
+            <a href="#EmailNotiSettings" class="list-group-item list-group-item-action">Email Notification Settings</a>
+            <a href="#StorageSettings" class="list-group-item list-group-item-action">Storage Settings</a>
+            <a href="#TicketSettings" class="list-group-item list-group-item-action">Ticket Fields Settings</a>
+            <a href="#ReCaptchaSettings" class="list-group-item list-group-item-action">ReCaptcha Settings</a>
+            <a href="#SeoSettings" class="list-group-item list-group-item-action">SEO Settings</a>
+            <a href="#CookieSettings" class="list-group-item list-group-item-action">Cookie Settings</a>
+            <a href="#KeySettings" class="list-group-item list-group-item-action">Chat GPT Key Settings</a>
+            <a href="#CacheSettings" class="list-group-item list-group-item-action">Cache Settings</a>
+          </div>
+        </div>
+
+
+        <div class="col-lg-9">
+          <div class="cardHolder">
+            <form class="card p-4" id="BrandSettings">
+              <h5>Brand Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="card p-4" id="CompanySettings">
+              <h5>Company Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+            <form class="card p-4" id="EmailSettings">
+              <h5>Email Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="card p-4" id="EmailNotiSettings">
+              <h5>Email Notification Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="card p-4" id="StorageSettings">
+              <h5>Storage Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="card p-4" id="TicketSettings">
+              <h5>Ticket Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="card p-4" id="ReCaptchaSettings">
+              <h5>ReCaptcha Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="card p-4" id="SeoSettings">
+              <h5>SEO Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="card p-4" id="CookieSettings">
+              <h5>Cookie Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="card p-4" id="KeySettings">
+              <h5>key Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="card p-4" id="CacheSettings">
+              <h5>Cache Settings</h5>
+              <p>Edit your brand details</p>
+              <div class="row">
+                <!-- Dark Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Dark Logo</h6>
+                      <img src="dark-logo.png" alt="Dark Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Light Logo -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Light Logo</h6>
+                      <img src="light-logo.png" alt="Light Logo" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <!-- Favicon -->
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <h6>Favicon</h6>
+                      <img src="favicon.png" alt="Favicon" class="img-fluid mb-3">
+                      <input type="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Settings -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="appName" class="form-label">App Name</label>
+                  <input type="text" id="appName" class="form-control" name="appName" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="footerText" class="form-label">Footer Text</label>
+                  <input type="text" id="footerText" class="form-control" name="footerText" value="TicketGo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="defaultLanguage" class="form-label">Default Language</label>
+                  <select id="defaultLanguage" class="form-select" name="defaultLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="secondaryLanguage" class="form-label">Secondary Language</label>
+                  <select id="secondaryLanguage" class="form-select" name="secondaryLanguage">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button type="submit" class="btn btn-success">Save</button>
+                </div>
+              </div>
+            </form>
+
+
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+      </div>
+    </main>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const toggleSidebar = document.getElementById('toggleSidebar');
+    const sidebar = document.getElementById('sidebar');
+    const mainContent = document.getElementById('mainContent');
+
+    toggleSidebar.addEventListener('click', () => {
+      sidebar.classList.toggle('show');
+      mainContent.classList.toggle('shift');
+    });
+
+    const sidebarLinks = document.querySelectorAll('.list-group-item');
+
+    sidebarLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        sidebarLinks.forEach(item => item.classList.remove('active'));
+        e.target.classList.add('active');
+      });
+    });
+
+
+    const MainSidebarLinks = document.querySelectorAll(" .MainSidebar")
+
+    MainSidebarLinks.forEach((val) => {
+      val.addEventListener('click', (e) => {
+        MainSidebarLinks.forEach((elems) => {
+          elems.classList.remove("active")
+
+          val.classList.add("active")
+          console.log(elems)
+        })
+      })
+    })
+
+
+
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,759 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Journal of Coating Technology and Innovation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="citation_title" content="Author guideline"/>
+        <meta name="citation_publication_date" content=""/>
+        <meta name="citation_author" content=""/>
+        <meta name="citation_author" content=""/>
+        <!--<meta name="citation_author" content="">-->
+        <meta name="citation_journal_title" content="journal of coating technology and innovation"/>
+        <meta name="citation_volume" content=""/>
+        <meta name="citation_issue" content=""/>
+        <meta name="citation_pdf_url" content=""/>
+        <link rel="shortcut icon" href="https://www.reseaprojournals.com/jr_icon.png" title="Reseapro Journals" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+      .fakeimg {
+        height: 200px;
+        background: #aaa;
+      }
+      .fa-caret-right{
+          color:orange;
+      }
+    </style>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5BVL4N5');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D3BLN1GMDW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-D3BLN1GMDW');
+    </script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BVL4N5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->  
+  
+   <style>
+        .float {
+            position: fixed;
+            top: 80px;
+            right: 40px;
+            width: 200px;
+            height: 50px;
+            background: linear-gradient(135deg, #25d366, #20c056);
+            color: white;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0 15px;
+            text-align: center;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+            z-index: 100;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .float .whatsapp-icon {
+            font-size: 22px;
+            margin-right: 10px;
+        }
+
+        .float .phone-number {
+            font-size: 14px;
+            color: white;
+            letter-spacing: 2px;
+        }
+
+        .float:hover {
+            background: linear-gradient(135deg, #1ebe4a, #19a442);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+            text-decoration:none;
+            color:white;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+  
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  
+  
+  
+    <!--Logo--->
+    <div id="logo" class="container-fluid" style="background-color:#f3f3f3;">
+        <div class="container" style="padding:0px;">
+            <nav class="navbar navbar-expand-md" style="background-color:#f3f3f3;">
+                <a href="https://www.reseaprojournals.com/" class="navbar-brand">
+                    <!--<img src="images/logo.png" src="img-responsive" title="">-->
+                    <img src="../img/rj_logo.png" src="img-responsive" title="" style='width:250px'>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <!--<form class="form-inline ml-auto">
+                        <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                    </form>-->
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <a href="https://api.whatsapp.com/send?phone=16466316696"
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+        <span class="phone-number">+1(646)631-6696</span>
+    </a><!--Primery menu---->
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:#0077b5;">
+    	<!--<a class="navbar-brand" href="#">Menu</a>-->
+        <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        	<span class="navbar-toggler-icon"></span>
+        </button>
+      	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+        	<ul class="navbar-nav">
+            	<li class="nav-item mr-4 ml-4">
+                	<a class="nav-link" href="https://www.reseaprojournals.com/jcti/">Home</a>
+              	</li>
+          		<li class="nav-item mr-4 ml-4">
+            		<a class="nav-link" href="https://www.reseaprojournals.com/jcti/editorial_board">Editorial Board</a>
+          		</li>
+          		<li class="nav-item mr-4 ml-4">
+            		<a class="nav-link" href="https://www.reseaprojournals.com/jcti/auth_guideline">Author Guidelines</a>
+          		</li>
+                <li class="nav-item mr-4 ml-4">
+            		<a class="nav-link" href="https://www.reseaprojournals.com/jcti/submit_article">Submit Article</a>
+          		</li>
+                <li class="nav-item mr-4 ml-4">
+            		<a class="nav-link" href="https://www.reseaprojournals.com/jcti/article_inpress">Article in press</a>
+          		</li>               
+                <li class="nav-item mr-4 ml-4">
+            		<a class="nav-link" href="https://www.reseaprojournals.com/jcti/archive">Archives</a>
+          		</li>
+                <li class="nav-item mr-4 ml-4">
+            		<a class="nav-link" href="https://www.reseaprojournals.com/jcti/contactus">Contact Us</a>
+          		</li>    
+        	</ul>
+      	</div>
+        </div>  
+    </nav><style type="text/css">
+#reftbl table td{border:1px solid #999999;}
+#more {display: none;}
+</style>
+<!--Home Content part---->
+	<div class="container" style="margin-top:50px">
+    	<div class="row">
+        	<div class="col-sm-3">
+    	        <div id="leftmenu" style="position: sticky;top: 0;">
+          		<style type="text/css">
+#leftcont ul{margin-left:10px;}
+#leftcont ul li{font-size:14px; font-family:Verdana, Geneva, sans-serif; list-style-type:square; color:#43bbf1; line-height:25px; padding:10px 5px;}
+#leftcont ul li:hover{background-color:#ededed;}
+</style>
+<div class="contbox" id="leftcont">
+	<div class="inrcont">
+    	<p style="font-weight:bold; color:#43bbf1;">Scope of the Journal</p><hr>
+        <ul>
+            <li><a href="https://www.reseaprojournals.com/jcti/journal_epd#ct">Coating Types</a></li>
+            <li><a href="https://www.reseaprojournals.com/jcti/journal_epd#cm">Coating Materials</a></li>
+            <li><a href="https://www.reseaprojournals.com/jcti/journal_epd#dt">Deposition Techniques</a></li>  
+            <li><a href="https://www.reseaprojournals.com/jcti/journal_epd#cc">Characterization of Coatings</a></li> 
+            <li><a href="https://www.reseaprojournals.com/jcti/journal_epd#ms">Modeling and Simulation</a></li>
+            <li><a href="https://www.reseaprojournals.com/jcti/journal_epd#esc">Environmental and Safety Considerations</a></li>
+            <!--<li><a href="https://www.reseaprojournals.com/jcti/journal_epd#csm">Coatings for smart materials and multifunctional properties</a></li>-->
+            <!--<li><a href="https://www.reseaprojournals.com/jcti/journal_epd#tsc">Thermal spray coatings (HVOF/HVAF, detonation spraying, flame spraying and fusing, plasma spraying, arc spraying, laser spraying, molten bath spraying, cold spraying)</a></li>-->
+            <!--<li><a href="https://www.reseaprojournals.com/jcti/journal_epd#pc">Physical and chemical vapour deposition techniques</a></li>-->
+            <!--<li><a href="https://www.reseaprojournals.com/jcti/journal_epd#epd">Electromagnetic powder deposition</a></li> -->
+            <!--<li><a href="https://www.reseaprojournals.com/jcti/journal_epd#let">Laser beams, electron beams and ion beams, thermo-chemical treatment</a></li>-->
+            <!--<li><a href="https://www.reseaprojournals.com/jcti/journal_epd#pseap">Plating, sol-gel coating, electrophoretic deposition (EPD), anodization, plasma electrolytic oxidation</a></li>-->
+
+        </ul>
+    </div>
+</div>
+<br />
+<div class="contbox">
+	<div class="inrcont">
+	    <a href="https://www.manuscriptedit.com/" target="_blank">
+	        <img src="images/Journal_add.jpg" class="rounded img-fluid" alt="journal_add" />
+	    </a>
+    	<!--<p style="font-weight:bold; color:#43bbf1;">Share this page</p><hr>-->
+     <!--   <div style="margin-top:15px;">-->
+     <!--   	<ul style="list-style-type:none; line-height:40px;">-->
+     <!--   	                    <li><i class="fa-brands fa-square-facebook" style="font-size:30px;color:#3b579d;"></i>&nbsp;&nbsp;<i class="fa-brands fa-square-twitter" style="font-size:30px;color:#28aae1;"></i>&nbsp;&nbsp;<i class="fa-brands fa-linkedin" style="font-size:30px;color:#0077b5;"></i></li>-->
+     <!--       </ul>-->
+     <!--   </div>-->
+    </div>
+</div>
+<br>        	    </div>
+    	    </div>
+        	<div id="pagecont" class="col-sm-9">
+        	              		<div class="row">
+                	<div align="left" class="col-lg-6" style="border-bottom:2px solid #06F;"><h4>Instructions for Authors</h4></div>
+                </div><br />
+                <div class="row">
+                	<div class="col-lg-12">
+                	<!----->
+                	<p>
+                	   Thank you for choosing to submit your paper to the Journal of Coating
+                        Technology and Innovation. These instructions will ensure we have
+                        everything required so that your paper can move through peer review,
+                        production, and publication smoothly. Please take time to read and follow
+                        the instructions carefully to ensure your paper matches the journal’s
+                        requirements.
+                    </p>
+                    <h5>Author Services</h5>
+                    <p>
+                        For editing support, including translation and language polishing, explore
+                        our Editing Services website <a href="https://www.manuscriptedit.com/" target="_blank">www.manuscriptedit.com</a>. Note that availing
+                        of editing services does not necessarily ensure publication of your
+                        manuscript. But it will certainly help in enhancing the readability of your
+                        manuscript and in going through the peer review process efficiently.
+                    </p>
+                        <br />
+                    <h5>Peer Review and Ethics</h5>
+                    <p>
+                        The Journal of Coating Technology and Innovation is committed to peer-
+                        review stability and maintaining the highest standards of review. Once
+                        your paper has been checked if it meets the journal’s submission
+                        guidelines by the editor, it will be subjected to double-blind peer-review
+                        by independent and anonymous professional referees.
+                    </p><br />
+                    <h5>Types of Articles</h5>
+                    <p>Journal of Coating Technology and Innovation accepts the following types of articles:</p>
+                    <p>
+                        <ul>
+                            <li>Original Research Articles</li>
+                            <li>Review Articles</li>
+                            <li>Short Communications</li>
+                            <li>Editorials</li>
+                            <li>Narratives</li>
+                            <li>Letters to the Editor</li>
+                        </ul>
+                    </p>
+                    <!--<h5>Editing Services</h5>-->
+                    <!--<p>For editing support, including translation and language polishing, explore our Editing Services website.</p><br />-->
+          
+                    <br />
+                    <h5>Plagiarism Policy</h5>
+                    <p>
+                      Journal of Coating Technology and Innovation follows a strong plagiarism
+                    policy. It confirms that none of the parts of the text is plagiarized from
+                    other sources, and appropriate reference is cited for all the contents taken
+                    from other sources. All the papers submitted have to pass through an
+                    initial screening performed using Advanced Plagiarism Detection Software.
+                                      </p>
+					<h5>Preparing Your Manuscript</h5>
+                    <p>
+                        All manuscripts must be submitted online through the
+                        website <a href="https://www.reseaprojournals.com/" target="_blank">www.reseaprojournals.com</a>. First-time users will have to register
+                        at this site. Registration is free but imperative. Registered authors can
+                        keep track of their articles after logging into the site using their username
+                        and password.
+                    </p>
+                    <p>
+                        The submitted manuscripts that are not as per the “Instructions to
+                        Authors” would be returned to the authors for technical correction before
+                        they undergo editorial/peer review. It is advised to submit the manuscript
+                        in the form of two separate files:
+                    </p>
+                    <h6>Title Page/First Page File/covering letter</h6><br />
+                    
+                    <p>This file should provide:</p>
+                    <P>The type of manuscript (original article, review article, Letter to editor,
+                        Images, etc.), the title of the manuscript, running title, names of all
+                        authors/ contributors (with their highest academic degrees, designation,
+                        and affiliations) and name(s) of the department(s) and/ or institution(s)
+                        to which the work should be credited. All information that can reveal your
+                        identity should be here. Use text/rtf/doc files. Do not zip the files.
+                    </P> 
+                    <p>
+                        The total number of pages, total number of photographs, and word count
+                        separately for the abstract and for the text (excluding the references,
+                        tables, and abstract), word counts for introduction + discussion in case of
+                        an original article.
+                    </p>
+					<p>Source(s) of support in the form of grants, equipment, drugs, or all of these.</p>
+
+
+					<p><b>Acknowledgements:</b><br/>
+    					One or more statements should specify
+    					<ol>
+        					<li>contributions that need acknowledging but do not justify authorship, such as general support by a departmental chair. </li> 
+        					<li>acknowledgments of technical help. </li>
+        					<li>acknowledgments of financial and material support, which should specify the nature of the support. This should be included in the title page of the manuscript and not in the main article file.</li>
+					    </ol>
+					</p>
+					<p>If the manuscript was presented as part of a meeting, the organization,
+                        place, and exact date on which it was read should be mentioned. A full
+                        statement to the editor should be given about all submissions and
+                        previous reports that might be regarded as redundant publication of the
+                        same or very similar work. Any such work should be referred to
+                        specifically and referenced in the new paper. Copies of such material
+                        should be included with the submitted paper to help the editor decide how
+                        to handle the matter.</p>
+                        <p>Registration number in case of a clinical trial and where it is registered
+                        (name of the registry and its URL) has to be provided.</p>
+					<p><b>Criteria for inclusion in the authors’/ contributors’ list</b><br/>
+					A statement that the manuscript has been read and approved by all the
+                    authors, that the requirements for authorship as stated earlier in this
+                    document have been met, and that each author believes that the
+                    manuscript represents honest work if that information is not provided in
+                    another form (see below); and</p>
+                    <p>The name, address, e-mail, and telephone number of the corresponding
+                        author, who is responsible for communicating with the other authors
+                        about revisions and final approval of the proofs if that information is not
+                        included on the manuscript itself.</p>
+					<p><b>Blinded Article file:</b> The manuscript must not contain any mention of the authors' names or initials or the institution at which the study was done or acknowledgements. Manuscripts not in compliance with The Journal's blinding policy will be returned to the corresponding author. The main text of the article, beginning from Abstract to References (including tables) should be in this file. Use rtf/doc files. Do not zip the files. Limit the file size to 1024 kb (1 MB). Do not incorporate images in the file. The pages should be numbered consecutively, beginning with the first page of the blinded article file.</p>
+					<p><b>Images:</b> Submit good quality color images. Each image should be less than 4 MB in size. Size of the image can be reduced by decreasing the actual height and width of the images (keep up to 1800 x 1200 pixels or 5-6 inches). Images can be submitted as jpeg files. Do not zip the files. Legends for the figures/images should be included at the end of the article file.</p>
+					<p><b>The contributors' / copyright transfer form</b> has to be submitted in original with the signatures of all the contributors within two weeks of submission via courier, fax or email as a scanned image. </p><br />
+                    
+                    
+                    <h5>Original Research Article</h5>
+                    <p>It Should be written with the following elements in the following order:</p>
+                    <p>The text of original articles amounting to up to 3500 words (excluding Abstract, references and Tables) It should comprise a structured abstract of 300 words. For original research, you should divide your structured abstract into the following sections: (a) Objective, (b) Methods (d) Results and (e) Conclusions. Should contain between 3 and 5 keywords. </p><br />
+                    
+                    
+                     <h5>Review Article</h5>
+					 <p>The prescribed word count is up to 4000 words excluding tables, references and abstract. Should be written in the following order: title page; abstract (maximum 250 words) ; keywords; main text introduction, materials and methods, results, discussion; acknowledgments; declaration of interest statement; references; appendices (as appropriate); table(s) with caption(s) (on individual pages); figures; figure captions (as a list). Should contain between 3 and 5 keywords.  For review papers, abstracts should not be structured but should be provided in summary style.</p><br />
+                     <h5>Short Communications</h5>
+                     <p>
+                         Short Communications are concise descriptions of new findings of general
+                        interest. A Short Communication should contain 1000 or fewer words, not
+                        counting abstract, reference list, tables, and figure legends. Each Short
+                        Communication must have an Abstract limited to 100 words. The
+                        manuscript should be formatted without section headings in the body of
+                        the text.
+                     </p>
+                     <h5>Editorials</h5>
+                     <p>
+                         Editorials convey opinions on any subject relevant to the journal’s
+                        concerns. They discuss a paper in the same issue of the journal, a recent
+                        finding published elsewhere, or a particular topic of importance. Editorials
+                        are solicited by the editors, and unsolicited submissions will not be
+                        considered. Editorials usually contain about 1000-1500 words in the main
+                        text (not counting reference list). One table or figure will be allowed if
+                        necessary.
+                     </p>
+                     <h5>Narratives</h5>
+                     <p>
+                         The suggested word count of narratives is up to 6000 words, excluding
+                        tables, references, and abstract. It should be written in the following
+                        order: title page, abstract (maximum 350 words), keywords, main text
+                        introduction, materials, and methods, results, discussion,
+                        acknowledgments, declaration of conflict of interest statement,
+                        references, appendices (as appropriate), table(s) with caption(s) (on
+                        individual pages), figures, figure captions (as a list). The narratives
+                        should contain between 3 and 5 keywords. For narratives, abstracts need
+                        not be structured.
+                     </p>
+                     
+                    <h5>Letter to the Editor</h5>
+                    <p>These should be short and decisive observations. They should preferably be related to articles previously published in the Journal or views expressed in the journal. They should not be preliminary observations that need a later paper for validation. The letter could have up to 500 words and 5 references. It could be generally authored by not more than four authors.</p><br />
+                    
+                    
+                    <h5>Style Guidelines</h5>
+					<p>Please refer to these quick style guidelines when preparing your paper, rather than any published articles or a sample copy.</p>
+					<p>Please use <b>American spelling</b> style consistently throughout your manuscript.</p>
+					<p>Please use double quotation marks, except where “a quotation is ‘within’ a quotation”. Please note that long quotations should be indented without quotation marks.</p><br />
+                    
+                    <h5>Formatting and Templates</h5>
+                    <p>Papers may be submitted in Word format. Figures should be saved separately from the text. To assist you in preparing your paper, we provide formatting template(s).</p>
+                    <p>Word templates are available for this journal. Please save the template to your hard drive, ready for use.</p>
+                   	<p>If you are not able to use the template via the links (or if you have any other template queries) please contact us here.</p><br />
+                    
+                    
+                    <h5>References</h5>
+					<p>Please use this reference guide when preparing your paper.</p><br />
+                    
+                    <div id="reftbl">
+                    <table class="table">
+                    	<tr>
+                        	<td width="300" rowspan="4" style="font-weight:bold;">In the Text Citations</td>
+                        	<td width="300">Basic Citation Format</td>
+                        	<td width="707">Resources in the reference list should be cited using digits in parentheses (e.g., (1), (2)). Citations should precede terminal (e.g., periods, commas, closed quotation marks, question marks, exclamation point) and nonterminal punctuation (e.g., semicolons, colons). Reference number should not be placed in parentheses.</td>
+                      	</tr>
+                      	<tr>
+                      		<td>Multiple Resources Cited</td>
+                        	<td>When citing two resources in the same callout, place them in the same parentheses and separate them with a comma.</td>
+                      	</tr>
+                      	<tr>
+                        	<td>Author Names</td>
+                        	<td>The names of authors associated with a resource can be included in the running text along with a numerical citation.
+                            A numerical citation, though, should not be used as a substitute for author names.<br />
+                            Correct<br />
+                            Wayne and Hartley (12) write …<br />
+                            Incorrect<br />
+                            (12) write.<br />
+                            The citation should immediately follow the mention of the author name(s).
+                            </td>
+                      	</tr>
+                      	<tr>
+                        	<td>Tables and Figures</td>
+                        	<td>Resources cited in tables or figure legends should follow the standard format and must be included in the reference list.</td>
+                      	</tr>
+                    </table>
+                    </div>
+                    
+                    <div id="reftbl">
+                    <table class="table">
+                    	<tr>
+                        	<td width="320" rowspan="4" style="font-weight:bold;">Journal Article Format</td>
+                        	<td width="300">Basic Format</td>
+                        	<td width="680">Format
+                                #. Author A, Author B, Author C. Title of the article. Abbr Jrnl
+                                Title. ####;##(##):####–####. doi:
+                                ##############. Cited in: PubMed; PMID
+                                ############# [optional].
+							</td>
+                      	</tr>
+                      	<tr>
+                      		<td>Example</td>
+                            <td>1. Duffy J, Johnsen P, Ferris M, Miller M, Leighton K, McGilvray M, McNamara L, Breakwell L, Yu Y, Bhavasar T, et al. Safety of a meningococcal group B vaccine used in response to two university outbreaks. J Adv Surg Res.
+                            </td>
+                      	</tr>
+                      	<tr>
+                        	<td>Basic Format</td>
+                        	<td>Format
+                                #. Author A, Author B, Author C. Title of book. # ed. City (State Abbr./Country): Publisher Name; yyyy. ### p.
+                                [optional]
+                            </td>
+                      	</tr>
+                      	<tr>
+                        	<td>Example</td>
+                        	<td>2. Reichman EF. Reichman’s emergency medicine procedures. 2nd ed. J Adv Surg Res; 2019.1223p</td>
+                      	</tr>
+                    </table>
+                    </div><br />
+                    
+                    <h5>Journal Services</h5>
+                    <p>
+                        To help you improve your manuscript and prepare it for submission,
+                        Journal of Coating Technology and Innovation provides a range of editing
+                        services. Choose from options such as English Language Editing,
+                        proofreading, formatting according to author guidelines etc which will
+                        ensure that your article is free of English errors, spelling and grammatical
+                        errors, and formatting errors. For more information, visit
+                        <a href="https://www.manuscriptedit.com/">www.manuscriptedit.com</a>
+                    </p>
+                    <h5>Checklist (what to include)</h5>
+                    <p><b>Author details:</b> All authors of a manuscript should include their full name and affiliation on the cover page of the manuscript. Where available, please also include ORCiDs and social media handles (Facebook, Twitter or LinkedIn). One author will need to be identified as the corresponding author, with their email address normally displayed in the article PDF (depending on the journal) and the online article. Authors’ affiliations are the affiliations where the research was conducted. If any of the named co-authors moves affiliation during the peer-review process, the new affiliation can be given as a footnote. Please note that no changes to affiliation can be made after your paper is accepted. Read more on authorship.</p>
+					<p>You can opt to include a video abstract with your article. Find out how these can help your work reach a wider audience, and what to think about when filming.</p>
+					<p><b>Funding details:</b> Please supply all details required by your funding and grant-awarding bodies as follows:</p>
+                    
+                    <p><b>For single agency grants:</b> This work was supported by the [Funding Agency] under Grant [number xxxx].</p>
+					<p><b>For multiple agency grants:</b> This work was supported by the [Funding Agency #1] under Grant [number xxxx]; [Funding Agency #2] under Grant [number xxxx]; and [Funding Agency #3] under Grant [number xxxx].</p>
+					<p><b>Disclosure statement:</b> This is to acknowledge any financial interest or benefit that has arisen from the direct applications of your research.</p>
+                    <p><b>Data availability statement:</b> If there is a data set associated with the paper, please provide information about where the data supporting the results or analyses presented in the paper can be found. Where applicable, this should include the hyperlink, DOI or other persistent identifier associated with the data set(s). Templates are also available to support authors.</p>
+					<p><b>Data deposition:</b> If you choose to share or make the data underlying the study open, please deposit your data in a recognized data repository prior to or at the time of submission. You will be asked to provide the DOI, pre-reserved DOI, or other persistent identifier for the data set.</p>
+					<p><b>Supplemental online material:</b> Supplemental material can be a video, dataset, fileset, sound file or anything which supports (and is pertinent to) your paper. We publish supplemental material online via Figshare. Find out more about supplemental material and how to submit it with your article.</p><br />
+                    
+                    
+                    <h5>Figures</h5>
+					<p>Final figures for publication should be of high quality(1200 dpi for line art, 600 dpi for grayscale and 300 dpi for color, at the correct size upto 4MB). Figures should be supplied in one of our preferred file formats: EPS, PDF, PS, JPEG, TIFF, or Microsoft Word (DOC or DOCX) files are acceptable for figures that have been drawn in Word. For information relating to other file types, please consult our Submission of electronic artwork document.</p>
+                    <ul style="list-style-type:square; line-height:30px;">
+                        <li>Upload the images in JPEG format. The file size should be within 4 MB in size while uploading.</li>
+                        <li>Figures should be numbered consecutively according to the order in which they have been first cited in the text.</li>
+                        <li>Labels, numbers, and symbols should be clear and of uniform size. The lettering for figures should be large enough to be legible after reduction to fit the width of a printed column.</li>
+                        <li>Symbols, arrows, or letters used in photomicrographs should contrast with the background and should be marked neatly with transfer type or by tissue overlay and not by pen.</li>
+                        <li>Titles and detailed explanations belong in the legends for illustrations not on the illustrations themselves.</li>
+                        <li>When graphs, scatter-grams or histograms are submitted the numerical data on which they are based should also be supplied.</li>
+                        <li>The photographs and figures should be trimmed to remove all the unwanted areas.</li>
+                        <li>If photographs of individuals are used, their pictures must be accompanied by written permission to use the photograph.</li>
+                        <li>If a figure has been published elsewhere, acknowledge the original source and submit written permission from the copyright holder to reproduce the material. A credit line should appear in the legend for such figures.</li>
+                        <li>Legends for illustrations: Type or print out legends (maximum 40 words, excluding the credit line) for illustrations using double spacing, with Arabic numerals corresponding to the illustrations. When symbols, arrows, numbers, or letters are used to identify parts of the illustrations, identify and explain each one in the legend. Explain the internal scale (magnification) and identify the method of staining in photomicrographs.</li>
+                        <li>Final figures for print production: If uploaded figures are not printable quality, publisher office may request for higher resolution images which can be sent at the time of acception of manuscript. Send sharp, glossy, un-mounted, color photographic prints, with height of 4 inches and width of 6 inches at the time of submitting the revised manuscript. Print outs of digital photographs are not acceptable. If digital images are the only source of images, ensure that the image has minimum resolution of 300 dpi or 1800 x 1600 pixels in TIFF format. Send the images on a CD. Each figure should have a label pasted (avoid use of liquid gum for pasting) on its back indicating the number of the figure, the running title, top of the figure and the legends of the figure. Do not write the contributor/s' name/s. Do not write on the back of figures, scratch, or mark them by using paper clips.</li>
+                    </ul>
+                    
+                    <h5>Tables</h5>
+                    <p>Tables should present new information rather than duplicating what is in the text. Readers should be able to interpret the table without reference to the text. Please supply editable files.</p>
+                    <ul style="list-style-type:square; line-height:30px;">
+                        <li>Tables should be self-explanatory and should not duplicate textual material.</li>
+                        <li>Tables with more than 10 columns and 25 rows are not acceptable.</li>
+                        <li>Number tables, in Arabic numerals, consecutively in the order of their first citation in the text and supply a brief title for each.</li>
+                        <li>Place explanatory matter in footnotes, not in the heading.</li>
+                        <li>Explain in footnotes all non-standard abbreviations that are used in each table.</li>
+                        <li>Obtain permission for all fully borrowed, adapted, and modified tables and provide a credit line in the footnote.</li>
+                        <li>For footnotes use the following symbols, in this sequence: *, †, ‡, §, ||,¶ , **, ††, ‡‡</li>
+                        <li>Tables with their legends should be provided at the end of the text after the references. The tables along with their number should be cited at the relevant place in the text.</li>
+                    </ul>
+                    
+                    <p><b>Equations:</b> If you are submitting your manuscript as a Word document, please ensure that equations are editable. More information about mathematical symbols and equations.</p>
+                    <p><b>Units:</b> Please use SI units (non-italicized).</p>
+                    <p>Using Third-Party Material in your Paper</p>
+                    <p>You must obtain the necessary permission to reuse third-party material in your article. The use of short extracts of text and some other types of material is usually permitted, on a limited basis, for the purposes of criticism and review without securing formal permission. If you wish to include any material in your paper for which you do not hold copyright, and which is not covered by this informal agreement, you will need to obtain written permission from the copyright owner prior to submission. More information on requesting permission to reproduce work(s) under copyright.</p><br />
+                    
+                    <h5>Using Third-Party Material</h5>
+					<p>You must obtain the necessary permission to reuse third-party material in your article. The use of short extracts of text and some other types of material is usually permitted, on a limited basis, for the purposes of criticism and review without securing formal permission. If you wish to include any material in your paper for which you do not hold copyright, and which is not covered by this informal agreement, you will need to obtain written permission from the copyright owner prior to submission.</p><br />
+                    <h5>Submitting Your Paper</h5>
+                    <p>
+                        Please read the above guidelines thoroughly and carefully before
+                        submiting your paper to the journal. Please note that Journal of Coating
+                        Technology and Innovation uses Crossref™ to screen papers for unoriginal
+                        material. By submitting your paper to the Journal of Coating Technology
+                        and Innovation, you agree to originality checks during the peer-review
+                        and production processes. Upon acceptance, we recommend that you
+                        keep a copy of your Accepted Manuscript.
+                    </p>
+                    <h5>Data Sharing Policy</h5>
+					<p>
+					    Journal of Coating Technology and Innovation has its own Sharing Policy.
+                        Authors are encouraged to share or make open the data supporting the
+                        results or analyses presented in their paper where this does not violate
+                        the protection of human subjects or other valid privacy or security
+                        concerns.
+                     </p>
+                    <p>Authors are encouraged to deposit the dataset(s) in a recognized data repository that can mint a persistent digital identifier, preferably a digital object identifier (DOI) and recognizes a long-term preservation plan. If you are uncertain about where to deposit your data, please see this information regarding repositories.</p>
+                    <p>Authors are further encouraged to cite any data sets referenced in the article and provide a Data Availability Statement.</p>
+                    <h5>Article Processing Charges (APC)</h5>
+                    <p>
+                        Reseapro Publishing believes in providing unrestricted access to all the published articles in
+                        all of its journals through our full open access policy. This means that the articles published
+                        in our journals can be used and reused by readers, while giving proper credit to the authors.
+                        All the articles published in our journals are licensed under the Creative Commons (CC BY)
+                        license.
+                    </p>
+                    <p>
+                        Authors are required to pay a one-time Article Processing Charge (APC) of 1000 USD for
+                        their accepted articles after peer review. The APC covers the costs of peer review
+                        administration and management, professional production of articles in various formats, and
+                        dissemination of published papers through multiple platforms. We do not charge any APC for
+                        the rejected articles. There is no charge either for submission or length-based surcharges.
+                        Additionally, certain types of papers such as Corrections, Addendums, Retractions, and
+                        Comments are published free of charge.
+                    </p>    
+                    <p>
+                        We offer APC waivers and discounts for accepted papers for corresponding authors based in
+                        the world’s lowest income countries as defined by the World Bank.
+                    </p>
+                    <h5>Copyright Options</h5>
+                    <p>
+                       Copyright allows you to protect your original material and stop others
+                        from using your work without your permission. Journal of Coating
+                        Technology and Innovation offers a number of different license and reuse
+                        options, including Creative Commons licenses when publishing open
+                        access. Read more on publishing agreements.
+                    </p>
+                    <h5>Open Access Policy</h5>
+                    <p>
+                       Our journals are actively engaged with Open Access (OA), which plays an
+                        important role in allowing us to fulfil our mission of furthering the
+                        advancement of learning, knowledge and research worldwide. All research
+                        articles published in Reseapro journals are fully open access: immediately
+                        freely available to read, download and share. Articles are published under
+                        the terms of a Creative Commons license which permits use, distribution
+                        and reproduction in any medium, provided the original work is properly
+                        cited.
+                    </p>
+                    <h5>Withdrawal Policy</h5>
+                    <p>
+                        The Withdrawal Policy of Reseapro Journals underscores a commitment to publication ethics and resource-efficient practices in the publication process. The policy mandates authors to submit a letter to the Editorial Office, signed by all authors, elucidating the reasons for withdrawal. Authors who choose to withdraw their accepted papers will be subject to a standardized withdrawal charge of 250 USD. This fee applies to any withdrawal subsequent to official acceptance for publication and covers administrative expenses associated with manuscript processing. Once an article has been accepted and published, the article publication charges become non-refundable in the event of withdrawal. This withdrawal charge is uniformly applicable to all authors, serving as a deterrent against frequent or impromptu withdrawals post-acceptance. The Editorial Office will issue a formal letter of manuscript withdrawal only after the withdrawal charge is paid. The policy ensures responsible manuscript handling and resource allocation.
+                    </p>
+                    <h5>Correction Notice</h5>
+                    <p>
+                       A Correction notice will be issued when it is necessary to correct an error or omission, where the interpretation of the article may be impacted but the scholarly integrity or original findings remain intact.<br/><br/>A correction notice, where possible, should always be written and approved by all authors of the article. On very rare occasions where there is a need to correct an error made in the publication process, the journal may be required to issue a correction without the authors’ direct input. However, should this occur, the journal will make its best efforts to notify the authors.<br/><br/>Please note that correction requests may be subject to full review, and if queries are raised, you may be expected to supply further information before the correction is approved. 
+                    </p>
+                    
+                    <h5>Retractions</h5>
+                    <p>
+                        A Retraction will be issued where a major error (e.g., in the methods or analysis) invalidates the conclusions in the article or where it appears research or publication misconduct has taken place (e.g., research without required ethical approvals, fabricated data, manipulated images, plagiarism, duplicate publication, etc.).<br/><br/>The decision to retract an article will be made in accordance with both journal policies and COPE guidelines. The COPE guidance can be found <a href="https://publicationethics.org/retraction-guidelines" target="_blank">here</a><br/><br/>
+                        Retractions will be considered in cases where:<br/></p><span id="dots">...</span><span id="more">
+                        <ul>
+                            <li>There is clear evidence that the findings are unreliable, either as a result of misconduct (e.g., data fabrication or image manipulation) or honest error (e.g., miscalculation or experimental error).</li>
+                            <li>The findings have previously been published elsewhere without proper referencing, permission, or justification (e.g., cases of redundant or duplicate publication).</li>
+                            <li>The research constitutes plagiarism beyond the accepted limit.</li>
+                            <li>The Editor no longer has confidence in the validity or integrity of the article.</li>
+                            <li>There is evidence or concerns of authorship for sale.</li>
+                            <li>There is evidence of compromised peer review or systematic manipulation.</li>
+                            <li>There is evidence of unethical research or there is evidence of a breach of editorial policies.</li>
+                        </ul>
+                        <p>Where the decision has been taken to retract an article, our journal will:</p>
+                         <ul>
+                            <li>Add a “retracted” watermark to the final published version of the article.</li>
+                            <li>Issue a separate retraction statement, titled ‘[article title] [Retraction]’, that will be linked to the retracted article on the journal’s website.</li>
+                            <li>Paginate and make available the retraction statement in the online issue of the journal.</li>
+                        </ul></span>
+                        <a onclick="myFunction()" id="myBtn" style="text-decoration:underline;float:right;cursor:pointer;">Read more</a><br/>
+                    <h5>Article Removal</h5>
+                    <p>
+                       An Article Removal will be issued in rare circumstances where the problems cannot be addressed through a Retraction or Correction notice. Our journal will consider the removal of a published article in very limited circumstances where: 
+                    </p>
+                    <ul>
+                        <li>The article contains content that could pose a serious risk of harm if acted upon or followed.</li>
+                        <li>The article contains content that violates the rights to privacy of a study participant.</li>
+                        <li>The article is defamatory or infringes other legal rights.</li>
+                        <li>An article is subject to a court order.</li>
+                    </ul>
+                    <br/>
+                    <p>In the case of an article being removed from the journal, a removal notice will be issued in its place.</p>
+                    <h5>Article Reprints</h5>
+                    <p>You will be sent a link to order article reprints via your account in our production system. For enquiries about reprints, please contact <b>Journal of Coating Technology and Innovation</b>  at <u style="color:blue">reprints@reseaprojournal.com</u>. You can also order print copies of the journal issue in which your article appears.</p><br />                    
+                    <h5>Queries</h5>
+					<p>Should you have any queries, please visit our Author Services website or contact us here.</p>
+
+                    
+
+
+
+
+
+                    
+
+
+
+
+
+                    
+                    
+
+
+
+
+                    
+
+
+
+	
+
+
+                    
+                    
+
+                    
+                   
+                    </div>
+                </div><br /><br />
+      		</div>
+    	</div>
+	</div><style type="text/css">
+#footer{border-top:5px solid #179fb5;}
+#footer .col{margin:50px 0px 60px 0px; color:#FFF;}
+#footer ul li a{text-decoration:none; color:#FFF;}
+#footer ul li a:hover{color:#43bbf1;}
+#footer .col .fb:hover{color:#4867aa;}
+#footer .col .tw:hover{color:#5da9dd;}
+#footer .col .in:hover{color:#0077b5;}
+</style>
+<!--Footer--->
+<div id="footer" class="container-fluid" style="background-color: #252525">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="col">
+                    <div>
+                        <h5>Content Links</h5>
+                    </div>
+                    <div style="margin-top:20px;">
+                        <ul style="list-style-type:none; line-height:40px;">
+                            <li><a href="https://www.reseaprojournals.com/jcti/home"><i
+                                        class="fa fa-angle-right"></i>&nbsp;&nbsp;Home</a></li>
+                            <li><a href="https://www.reseaprojournals.com/jcti/auth_guideline"><i
+                                        class="fa fa-angle-right"></i>&nbsp;&nbsp;Author Guidelines</a></li>
+                            <li><a href="https://www.reseaprojournals.com/jcti/article_inpress"><i
+                                        class="fa fa-angle-right"></i>&nbsp;&nbsp;Article in Press</a></li>
+                            <li><a href="https://www.reseaprojournals.com/jcti/archive"><i
+                                        class="fa fa-angle-right"></i>&nbsp;&nbsp;Archives</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div style="margin:50px 20px; color:#FFF;">
+                    <div style="border-bottom:1px solid #999;">
+                        <p style="font-size:16px; font-weight:bold;">Address</p>
+                    </div>
+                    <div style="margin-top:15px;">
+                        <div style="display: flex; line-height: 25px; margin-bottom: 10px;">
+                            <p>
+                                GMA, 8th Floor, ASTEM Bldg. KRP, 134 Chudoji Minamimachi,<br> Shimogyo-ku, KYOTO -
+                                6008813, JAPAN
+                            </p> <img src="https://reseaprojournals.com/img/jflag.png" alt="flagIcon" width="20px"
+                                height="20px" style="margin-left:1rem;">
+                        </div>
+
+                        <div style="display: flex; line-height: 25px; margin-bottom: 10px;">
+                            <p>
+                                2530 Meridian Parkway, Suite 300, Durham, NC, 27713, USA
+                            </p>
+                            <img src="https://reseaprojournals.com/img/usaflag.png" alt="flagIcon" width="20px"
+                                height="20px" style="margin-left:1rem;">
+                        </div>
+                        <div style="display: flex; line-height: 25px; margin-bottom: 10px;">
+                            <p>
+                                26 Kings Hill Avenue, Kings Hill, West Malling, Maidstone, ME19 4AE,<br> MAIDSTONE,
+                                UK
+                            </p> <img src="https://reseaprojournals.com/img/ukflag.png" alt="flagIcon" width="20px"
+                                height="20px" style="margin-left:1rem;">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-lg-2">
+                <div class="col">
+                    <div>
+                        <h5>Connect</h5>
+                    </div>
+                    <div style="margin-top:20px;">
+                        <ul style="list-style-type:none; line-height:40px;">
+                            <li style="display: flex;"><i class="fa-brands fa-square-facebook"
+                                    style="font-size:30px;color:#3b579d;"></i>&nbsp;&nbsp;<i
+                                    class="fa-brands fa-square-twitter"
+                                    style="font-size:30px;color:#28aae1;"></i>&nbsp;&nbsp;<i
+                                    class="fa-brands fa-linkedin" style="font-size:30px;color:#0077b5;"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div style="height:70px; background-color:#2d2d2d">&nbsp;</div>
+ <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+</script>
+
+	   
+    <!--https://www.greatsampleresume.com/job-responsibilities/software-consultant-responsibilities/--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
